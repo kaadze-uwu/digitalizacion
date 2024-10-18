@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navegación -->
+    <header>
+        <h1>Mi Sitio Web Personal</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección: Inicio -->
+    <section id="home" class="section">
+        <h2>Bienvenido a Mi Página Personal</h2>
+        <p>Hola, soy [Tu Nombre], y esta es mi página web personal. Aquí puedes encontrar información sobre mí, mis proyectos, los servicios que ofrezco, y cómo contactarme.</p>
+    </section>
+
+    <!-- Sección: Sobre Mí -->
+    <section id="about" class="section">
+        <h2>Sobre Mí</h2>
+        <p>Soy [Tu Profesión/Interés], apasionado por [Intereses o Habilidades]. Con experiencia en [Breve descripción de tu carrera o pasatiempos].</p>
+    </section>
+
+    <!-- Sección: Proyectos -->
+    <section id="projects" class="section">
+        <h2>Mis Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve de tu primer proyecto.</p>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2</h3>
+            <p>Descripción breve de tu segundo proyecto.</p>
+        </div>
+    </section>
+
+    <!-- Sección: Servicios -->
+    <section id="services" class="section">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Servicio 1: Digitalización de documentos</li>
+            <li>Servicio 2: Desarrollo web</li>
+            <li>Servicio 3: Consultoría en tecnología</li>
+        </ul>
+    </section>
+
+    <!-- Sección: Contacto -->
+    <section id="contact" class="section">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="formMessage"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web Personal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
